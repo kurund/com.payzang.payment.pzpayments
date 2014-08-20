@@ -11,7 +11,7 @@
     </urls>
     <license>AGPL</license>
     <maintainer>
-        <author>Dharmendra Kumar</author>
+        <author>PayZang</author>
         <email>kumar@payzang.com</email>
     </maintainer>
     <releaseDate>2013-04-24</releaseDate>
@@ -25,11 +25,11 @@
         <signatureLabel></signatureLabel>
         <subjectLabel></subjectLabel>
         <urlSiteDefault></urlSiteDefault>
-        <urlApiDefault>https://www.paymentsgateway.net/cgi-bin/posttest.pl</urlApiDefault>
-        <urlRecurDefault></urlRecurDefault>
+        <urlApiDefault>https://www.paymentsgateway.net/cgi-bin/postauth.pl</urlApiDefault>
+        <urlRecurDefault>https://www.paymentsgateway.net/cgi-bin/postauth.pl</urlRecurDefault>
         <urlSiteTestDefault></urlSiteTestDefault>
         <urlApiTestDefault>https://www.paymentsgateway.net/cgi-bin/posttest.pl</urlApiTestDefault>
-        <urlRecurTestDefault></urlRecurTestDefault>
+        <urlRecurTestDefault>https://www.paymentsgateway.net/cgi-bin/posttest.pl</urlRecurTestDefault>
         <urlButtonDefault></urlButtonDefault>
         <urlButtonTestDefault></urlButtonTestDefault>
         <billingMode>form</billingMode>
