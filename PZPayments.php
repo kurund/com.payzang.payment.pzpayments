@@ -264,25 +264,16 @@ class com_payzang_payment_pzpayments extends CRM_Core_Payment
         $retVal = 0;
         switch ($freq)
         {
-            case "weekly":
+            case "day":
+                CRM_Core_Error::fatal(ts('Daily recurring payment is not support. Please create a one time payment.'));
+                break;
+            case "week":
                 $retVal = 10;
                 break;
-            case "bi-weekly":
-                $retVal = 15;
-                break;
-            case "monthly":
+            case "month":
                 $retVal = 20;
                 break;
-            case "bi-monthly":
-                $retVal = 25;
-                break;
-            case "quarterly":
-                $retVal = 30;
-                break;
-            case "semiannually":
-                $retVal = 35;
-                break;
-            case "yearly":
+            case "year":
                 $retVal = 40;
                 break;
             default:
