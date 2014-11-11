@@ -3,7 +3,7 @@
     <file>PZPayments</file>
     <name>PayZangPayments</name>
     <description>CiviCRM extension for using Payzang Payment Platform</description>
-    <downloadUrl>https://github.com/webaccess/com.payzang.payment.pzpayments</downloadUrl>
+    <downloadUrl>https://github.com/webaccess/com.payzang.payment.pzpayments/archive/master.zip</downloadUrl>
     <urls>
         <url desc="Main Extension Page">https://github.com/webaccess/com.payzang.payment.module</url>
     		<url desc="Documentation">https://github.com/webaccess/com.payzang.payment.module/blob/master/PayZang Payment Processor Installation Instructions.pdf</url>
